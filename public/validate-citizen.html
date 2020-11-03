@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Sebastian Arango">
+
+    <title>Registro | Carpeta Ciudadana</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="citizen.css" rel="stylesheet">
+
+  </head>
+
+  <body class="text-center">
+    <form id="registerForm" class="form-signin">
+      <img class="mb-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Escudo_de_Colombia.svg/1200px-Escudo_de_Colombia.svg.png" alt="" width="72" height="72">
+      <h1 class="h3 mb-3 font-weight-normal">Registrarme ante Operador</h1>
+
+      <label for="inputName" class="sr-only">Nombre</label>
+      <input type="text" id="inputName" class="form-control" placeholder="Nombre Ciudadano" required autofocus>
+      <label for="inputId" class="sr-only">Id del Ciudadano</label>
+      <input type="number" id="inputId" class="form-control" placeholder="Id Ciudadano" required>
+      <label for="inputAddress" class="sr-only">Direccion</label>
+      <input type="text" id="inputAddress" class="form-control" placeholder="Direccion" required autofocus>
+      <label for="inputEmail" class="sr-only">Email</label>
+      <input type="text" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
+      <label for="inputOperatorId" class="sr-only">Id Operador</label>
+      <input type="number" id="inputOperatorId" class="form-control" placeholder="Id Operador" required>
+      <label for="inputOperatorName" class="sr-only">Nombre Operador</label>
+      <input type="text" id="inputOperatorName" class="form-control" placeholder="Nombre Operador" required autofocus>
+
+      <button id="submitRegistro" class="btn btn-lg btn-primary btn-block" type="button">Registrar</button>
+
+      <p class="mt-5 mb-3 text-muted">&copy; 2020</p>
+    </form>
+
+    <script src="./citizen.js"></script>
+  </body>
+</html>

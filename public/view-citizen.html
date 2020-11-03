@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Sebastian Arango">
+
+    <title>Inicio | Carpeta Ciudadana</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="citizen.css" rel="stylesheet">
+
+  </head>
+
+  <body class="text-center">
+
+    <form id="registerForm" class="form-signin">
+
+      <img class="mb-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Escudo_de_Colombia.svg/1200px-Escudo_de_Colombia.svg.png" alt="" width="72" height="72">
+
+      <h1 class="h3 mb-3 font-weight-normal">Información del Ciudadano</h1>
+      <label for="inputId" class="sr-only">Id del Ciudadano</label>
+      <input type="number" id="inputId" class="form-control" placeholder="Id Ciudadano" required>
+
+      <button id="submitConsulta" class="btn btn-lg btn-primary btn-block" type="button">Consultar</button>
+
+      <pre class="pre-scrollable" cols="50"><code id="code"></code></pre>
+
+      <p class="mt-5 mb-3 text-muted">&copy; 2020</p>
+    </form>
+
+    <script src="./viewCitizen.js"></script>
+
+  </body>
+</html>
